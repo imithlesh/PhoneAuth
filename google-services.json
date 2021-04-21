@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "99279408028",
+    "project_id": "fragmentlogin-20ab2",
+    "storage_bucket": "fragmentlogin-20ab2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99279408028:android:9c553161d793b16825d659",
+        "android_client_info": {
+          "package_name": "com.example.fragmentlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99279408028-kjlruoi5npv348eaa1s33udcdbt83303.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAslqM0DM6ttfhioUVPoCDH2lJDejKQK1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99279408028-kjlruoi5npv348eaa1s33udcdbt83303.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

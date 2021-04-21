@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/b"
+    tools:context=".ui.verifyOtp.VerifyOTP">
+
+    <ImageButton
+        android:id="@+id/arrowBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        android:padding="20dp" />
+
+    <ImageView
+        android:id="@+id/phoneImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/hacked" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneImg"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text="Verification Code"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Please type the verification code sent to"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv2"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="@color/black" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/otp_view"
+            android:layout_below="@id/tv3"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/verifyBtn"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/otp_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnback"
+        android:text="Verify"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/OtpNotReceivedTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verifyBtn"
+        android:layout_centerHorizontal="true"
+        android:padding="50dp"
+        android:text="OTP not received yet? Resend OTP"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/pbar"
+    android:layout_centerInParent="true"
+    />
+</RelativeLayout>
